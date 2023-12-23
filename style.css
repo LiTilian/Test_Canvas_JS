@@ -72,12 +72,12 @@ li {
 #canvas {
     border: solid 5px black;
     background-color: white;
-    width: 750px; /* измененная ширина холста */
+    width: 750px;
     height: 500px;
 }
 
 #clearCanvas {
-    padding: 10px 20px; /* стиль для кнопки очистки */
+    padding: 10px 20px;
     margin-top: 5px;
     font-size: 16px;
     background-color: rgb(213, 54, 54);
