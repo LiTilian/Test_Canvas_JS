@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Холст</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="controls">
+		<label for="number" id="labelBrushSize"> Изменить размер кисти: </label>
+		<input type="number" id="brushSizeInput" min="1" max="50" value="10"> 
+		<br>
+		<button id="clearCanvas">Очистить холст</button> 
+    </div>
+
+    <div id="palette">
+        <ul id="list">
+            <li class="colorPicker" id="red"></li>
+            <li class="colorPicker" id="orange"></li>
+            <li class="colorPicker" id="yellow"></li>
+            <li class="colorPicker" id="magenta"></li>
+            <li class="colorPicker" id="purple"></li>
+            <li class="colorPicker" id="blue"></li>
+            <li class="colorPicker" id="cyan"></li>
+            <li class="colorPicker" id="green"></li>
+            <li class="colorPicker" id="teal"></li>
+            <li class="colorPicker" id="lime"></li>
+        </ul>
+    </div>
+
+    <canvas id="canvas" height="500px" width="750px"></canvas>
+
+   <script src="canvas.js"></script>
+</body>
+</html>
